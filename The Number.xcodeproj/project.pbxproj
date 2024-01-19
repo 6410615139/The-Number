@@ -11,6 +11,7 @@
 		CE3FD95F2B5A512500040BC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FD95E2B5A512500040BC9 /* ContentView.swift */; };
 		CE3FD9612B5A512700040BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3FD9602B5A512700040BC9 /* Assets.xcassets */; };
 		CE3FD9642B5A512700040BC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3FD9632B5A512700040BC9 /* Preview Assets.xcassets */; };
+		CE3FD96C2B5A51CD00040BC9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FD96B2B5A51CD00040BC9 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CE3FD95E2B5A512500040BC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3FD9602B5A512700040BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3FD9632B5A512700040BC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE3FD96B2B5A51CD00040BC9 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		CE3FD95B2B5A512500040BC9 /* The Number */ = {
 			isa = PBXGroup;
 			children = (
+				CE3FD96A2B5A51B200040BC9 /* Models */,
 				CE3FD95C2B5A512500040BC9 /* The_NumberApp.swift */,
 				CE3FD95E2B5A512500040BC9 /* ContentView.swift */,
 				CE3FD9602B5A512700040BC9 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				CE3FD9632B5A512700040BC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE3FD96A2B5A51B200040BC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FD96B2B5A51CD00040BC9 /* Game.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3FD95F2B5A512500040BC9 /* ContentView.swift in Sources */,
+				CE3FD96C2B5A51CD00040BC9 /* Game.swift in Sources */,
 				CE3FD95D2B5A512500040BC9 /* The_NumberApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
